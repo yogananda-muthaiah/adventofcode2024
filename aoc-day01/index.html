@@ -1,1 +1,33 @@
 
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>Just a Button</title>
+
+		<script src="https://ui5.sap.com/resources/sap-ui-core.js"
+			id="sap-ui-bootstrap"
+			data-sap-ui-async="true"
+			data-sap-ui-oninit="onInit"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-compatVersion="edge"></script>
+
+		<script>
+			function onInit() {
+				sap.ui.require(["sap/m/Button"], (Button) => {
+					new Button({
+						text: "AoC 2024 - Learn UI5",
+						
+						press() {
+							alert("Advent of Code 2024");
+						}
+					}).placeAt("content");
+				});
+			}
+		</script>
+
+	</head>
+     <body id="content" class="sapUiBody" style="padding: 10%;"></body>
+	</body>
+</html>
