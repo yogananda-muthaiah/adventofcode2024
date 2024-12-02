@@ -41,6 +41,9 @@ This simple example demonstrates how UI5 can be used to create interactive solut
 ### UI5 Linter
 * https://github.com/SAP/ui5-linter
 
+### Disclaimer
+Note: The examples provided  are intended to help you learn step-by-step how to use UI5 controls. When designing an actual project, it should be based on the Node.js module.
+
 ### Conclusion
 
 Advent of Code is a fantastic opportunity to sharpen your coding skills and have fun with the global programming community. Using UI5, you can enhance your solutions with rich UI components and efficient architecture. So, get ready to code, learn, and enjoy the Advent of Code 2024 with UI5!
