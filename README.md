@@ -10,12 +10,13 @@ References : https://ui5.sap.com/#/controls
 The Advent of Code (AoC) is an annual event that excites the programming SAP community every December. It's a series of daily coding challenges that run from December 1st to December 25th, offering a fun and engaging way to improve your coding skills. This year, let's dive into how you can tackle these challenges using UI5, a powerful framework for building enterprise-ready web applications.
 
 
-Getting Started with UI5
+### Getting Started with UI5
 
 To get started with UI5 for Advent of Code, you'll need to set up your development environment. Here are the basic steps:
 
-    Install Node.js and npm: UI5 requires Node.js and npm for development. You can download and install them from the official Node.js website.
-    Set Up UI5 CLI: The UI5 Command Line Interface (CLI) is a powerful tool that helps you manage your UI5 projects. Install it using npm:
+Install Node.js and npm: UI5 requires Node.js and npm for development. You can download and install them from the official Node.js website.
+Set Up UI5 CLI: The UI5 Command Line Interface (CLI) is a powerful tool that helps you manage your UI5 projects. Install it using npm:
+
 ```
 npm install --global @ui5/cli
 npm install --global yo
@@ -32,7 +33,7 @@ This simple example demonstrates how UI5 can be used to create interactive solut
 * https://ui5.sap.com/test-resources/sap/m/demokit/iconExplorer/webapp/index.html
 
 ### Live Editor
-*https://ui5.sap.com/#/liveEditor
+* https://ui5.sap.com/#/liveEditor
 
 ### UI5 Tooling
 * https://sap.github.io/ui5-tooling/stable/
