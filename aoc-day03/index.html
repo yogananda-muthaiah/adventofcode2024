@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+     <title>UI5 InfoLabel Example</title>
+     <script
+          id="sap-ui-bootstrap"
+          src="https://ui5.sap.com/resources/sap-ui-core.js"
+          data-sap-ui-theme="sap_horizon"
+          data-sap-ui-libs="sap.m, sap.tnt"
+          data-sap-ui-async="true">
+     </script>
+
+
+     <script>
+          sap.ui.getCore().attachInit(function () {
+               new sap.m.App({
+                    pages: [
+                         new sap.m.Page({
+                              title: "InfoLabel Example - Advent of Code 2024",
+                              content: [
+                                   new sap.m.Label({
+                                        text: "Status:"
+                                   }),
+                                   new sap.tnt.InfoLabel({
+                                        text: "Active",
+                                        renderMode : "Narrow",
+                                        colorScheme: 1
+                                   }),
+                                   new sap.tnt.InfoLabel({
+                                        text: "Active",
+                                        renderMode : "Narrow",
+                                        colorScheme: 2
+                                   }),
+                                   new sap.tnt.InfoLabel({
+                                        text: "Active",
+                                        renderMode : "Narrow",
+                                        colorScheme: 3
+                                   }),
+                                   new sap.tnt.InfoLabel({
+                                        text: "Active",
+                                        renderMode : "Narrow",
+                                        colorScheme: 4,
+                                        icon: "sap-icon://home-share",
+                                        width : "140px"
+                                   }),
+                                   new sap.tnt.InfoLabel({
+                                        text: "Active",
+                                        renderMode : "Narrow",
+                                        colorScheme: 5,
+                                        icon: "sap-icon://ai",
+                                        width : "140px"
+                                   }),       
+                                   new sap.tnt.InfoLabel({
+                                        text: "Active",
+                                        renderMode : "Narrow",
+                                        colorScheme: 6,
+                                        icon: "sap-icon://home",
+                                        width : "140px"
+                                   })                                                                                                                                                                                
+                              ]
+                         })
+                    ]
+               }).placeAt("content");
+          });
+     </script>
+
+
+</head>
+<body class="sapUiBody" id="content">
+</body>
+</html>
