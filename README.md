@@ -24,10 +24,14 @@ npm install --global yo
 npm install --global create-easy-ui5
 ```
 
-This simple example demonstrates how UI5 can be used to create interactive solutions for Advent of Code challenges. By leveraging UI5's powerful features, you can build robust and visually appealing applications to solve even the most complex problems.
+### Where to Start ?
+* https://ui5.sap.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218
+
+
 
 ### Github repo for AoC 2024
 * https://github.com/yogananda-muthaiah/adventofcode2024
+This simple example demonstrates how UI5 can be used to create interactive solutions for Advent of Code challenges. By leveraging UI5's powerful features, you can build robust and visually appealing applications to solve even the most complex problems.
 
 ### SAP UI5 Icons Explorer
 
