@@ -49,6 +49,9 @@ This simple example demonstrates how UI5 can be used to create interactive solut
 ### Best of UI5 (NPM Packages)
 * https://bestofui5.org/
 
+### UI5 Community
+* https://github.com/ui5-community
+  
 ---
 ### Disclaimer
 **Note**: The examples provided are intended to help you learn step-by-step how to use UI5 controls. When designing an actual project, it should be based on the Node.js module.
