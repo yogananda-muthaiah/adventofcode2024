@@ -46,6 +46,8 @@ This simple example demonstrates how UI5 can be used to create interactive solut
 ### UI5 Linter
 * https://github.com/SAP/ui5-linter
 
+### Best of UI5 (NPM Packages)
+* https://bestofui5.org/
 
 ---
 ### Disclaimer
