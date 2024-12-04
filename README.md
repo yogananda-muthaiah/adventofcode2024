@@ -5,7 +5,7 @@
 * [Day 1 - Button](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day01)
 * [Day 2 - Dialog](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day02)
 * [Day 3 - InfoLabel](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day03)
-* [Day 3 - Illustration](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day04)
+* [Day 4 - Illustration](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day04)
 
 References : https://ui5.sap.com/#/controls
 
