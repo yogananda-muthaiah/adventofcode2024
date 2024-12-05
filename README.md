@@ -6,6 +6,8 @@
 * [Day 2 - Dialog](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day02)
 * [Day 3 - InfoLabel](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day03)
 * [Day 4 - Illustration](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day04)
+* [Day 5 - Table](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day05)
+* [Day 6 - Generic Tag](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day06)
 
 References : https://ui5.sap.com/#/controls
 
