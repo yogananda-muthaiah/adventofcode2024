@@ -1,0 +1,54 @@
+<html>
+     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+     <meta charset="utf-8">
+     <title>MVC with XmlView</title>
+     <script id='sap-ui-bootstrap'
+          src='https://ui5.sap.com/resources/sap-ui-core.js'
+          data-sap-ui-theme='sap_horizon'
+          data-sap-ui-libs='sap.m'
+          data-sap-ui-compatVersion='edge'></script>
+          <head>
+
+          <script id="myXml" type="text/xmldata">
+               <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.f" height="100%" controllerName="myController">
+                    <f:DynamicPage>
+                         <f:title>
+                              <f:DynamicPageTitle>
+                                   <f:heading>
+                                        <Title text="Advent of Code 2024"/>
+                                   </f:heading>
+                                   <f:content>
+                                        <OverflowToolbar>
+                                             <GenericTag text="CO2e Sustainability Footprint" status="Success" design="StatusIconHidden"/>
+                                             <GenericTag text="E-Bike" status="Error" design="StatusIconHidden"/>
+                                        </OverflowToolbar>
+                                   </f:content>
+                                   <f:actions>
+                                        <GenericTag text="Carbon" status="Error" design="StatusIcon"/>
+                                   </f:actions>
+                              </f:DynamicPageTitle>
+                         </f:title>
+                    </f:DynamicPage>
+               </mvc:View>
+          </script>
+
+          <script>
+               sap.ui.define(
+                    ["sap/ui/core/mvc/Controller", "sap/ui/core/mvc/XMLView"],
+                    function (Controller, XMLView) {
+                         Controller.extend("myController", {
+                              onInit: function () {
+
+                              }
+                         });
+
+                    XMLView.create({definition: jQuery('#myXml').html()}).then(function (oView) {
+                         oView.placeAt("content");
+                    });
+               });
+          </script>           
+
+</head>
+<body id='content' class='sapUiBody'>
+</body>
+</html>
