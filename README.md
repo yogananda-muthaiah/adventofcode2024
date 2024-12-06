@@ -1,6 +1,8 @@
 # adventofcode2024
 
-## SAP UI5 Basics to Advanced
+## SAP UI5 Basics to Advanced 🎄
+
+> Started from Dec 1 and ends on Dec 27th
 
 * [Day 1 - Button](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day01)
 * [Day 2 - Dialog](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day02)
@@ -8,10 +10,15 @@
 * [Day 4 - Illustration](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day04)
 * [Day 5 - Table](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day05)
 * [Day 6 - Generic Tag](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day06)
+* [Day 7 - Icon Tab Header](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day07)
+* [Day 8 - Message Strip](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day08)
+* [Day 9 - Message View Dialog](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day09)
+* [Day 10 - Panel](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day10)
+* [Day 11 - Slide Tile]
 
 References : https://ui5.sap.com/#/controls
 
-The Advent of Code (AoC) is an annual event that excites the programming SAP community every December. It's a series of daily coding challenges that run from December 1st to December 25th, offering a fun and engaging way to improve your coding skills. This year, let's dive into how you can tackle these challenges using UI5, a powerful framework for building enterprise-ready web applications.
+The [Advent of Code (AoC)](https://adventofcode.com/) is an annual event that excites the programming SAP community every December. It's a series of daily coding challenges that run from December 1st to December 25th, offering a fun and engaging way to improve your coding skills. This year, let's dive into how you can tackle these challenges using UI5, a powerful framework for building enterprise-ready web applications.
 
 
 ### Getting Started with UI5
