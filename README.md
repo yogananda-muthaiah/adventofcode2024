@@ -4,6 +4,7 @@
 
 > Started from Dec 1 and ends on Dec 27th
 
+### Week 1
 * [Day 1 - Button](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day01)
 * [Day 2 - Dialog](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day02)
 * [Day 3 - InfoLabel](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day03)
@@ -11,10 +12,14 @@
 * [Day 5 - Table](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day05)
 * [Day 6 - Generic Tag](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day06)
 * [Day 7 - Icon Tab Header](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day07)
+### Week 2
 * [Day 8 - Message Strip](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day08)
 * [Day 9 - Message View Dialog](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day09)
 * [Day 10 - Panel](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day10)
-* [Day 11 - Slide Tile]
+* [Day 11 - Slide Tile](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day11)
+* [Day 12 - Message Box](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day12)
+* [Day 13 - Message Toast](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day13)
+* [Day 14 - Page,Toolbar and Bar](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day14)
 
 References : https://ui5.sap.com/#/controls
 
@@ -65,7 +70,8 @@ This simple example demonstrates how UI5 can be used to create interactive solut
 ---
 ### Disclaimer
 **Note**: The examples provided are intended to help you learn step-by-step how to use UI5 controls. When designing an actual project, it should be based on the Node.js module.
-
+Disclaimer
+> The repo contains sample code for learning purposes only. It does not contain any best practices or advices. The code is not further maintained or updated. Usage of the code is on your own risk.
 
 ### Conclusion
 
