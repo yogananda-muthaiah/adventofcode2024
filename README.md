@@ -16,7 +16,7 @@
 * [Day 8 - Message Strip](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day08)
 * [Day 9 - Panel](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day09)
 * [Day 10 - Slide Tile](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day10)
-* [Day 11 - ](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day11)
+* [Day 11 - MicroCharts](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day11)
 * [Day 12 - Message Box](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day12)
 * [Day 13 - Message Toast](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day13)
 * [Day 14 - Page,Toolbar and Bar](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day14)
