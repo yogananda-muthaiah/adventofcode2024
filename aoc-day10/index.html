@@ -1,0 +1,70 @@
+<html>
+<head>
+     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+     <meta charset="utf-8">
+     <title>MVC with XmlView</title>
+     
+     <script id='sap-ui-bootstrap'
+          src='https://ui5.sap.com/resources/sap-ui-core.js'
+          data-sap-ui-theme='sap_horizon'
+          data-sap-ui-libs='sap.m, sap.ui.core, sap.ui.layout'
+          data-sap-ui-compatVersion='edge'
+          data-sap-ui-async="true"
+          data-sap-ui-on-init="module:ui5/walkthrough/index"
+          data-sap-ui-resource-roots='{ "ui5.walkthrough": "./" }'>          
+     </script>
+
+     <script id="myXml" type="text/xmldata">
+          <mvc:View controllerName="myController"
+               xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout">
+               <l:VerticalLayout>
+                    <SlideTile>
+                         <GenericTile
+                              backgroundImage="https://ui5.sap.com/test-resources/sap/m/demokit/sample/SlideTile/images/NewsImage2.png"
+                              press="pressOnTileOne">
+                              <TileContent footer="August 21, 2024">
+                                   <NewsContent
+                                        contentText="SAP Unveils Powerful New Player Comparision Tool Exclusively on NFL.com"
+                                        subheader="Today, SAP News" />
+                              </TileContent>
+                         </GenericTile>
+                         <GenericTile
+                              backgroundImage="https://ui5.sap.com/test-resources/sap/m/demokit/sample/SlideTile/images/NewsImage1.png"
+                              frameType="TwoByOne" press="pressOnTileTwo">
+                              <TileContent footer="August 21, 2024">
+                                   <NewsContent
+                                        contentText="Wind Map: Monitoring Real-Time and Forecasted Wind Conditions across the Globe"
+                                        subheader="Today, SAP News" />
+                              </TileContent>
+                         </GenericTile>
+                    </SlideTile>
+                    <SlideTile class="sapUiTinyMarginBegin sapUiTinyMarginTop" transitionTime="250" displayTime="2500">
+                         <GenericTile
+                              backgroundImage="https://ui5.sap.com/test-resources/sap/m/demokit/sample/SlideTile/images/NewsImage1.png"
+                              frameType="TwoByOne" press="pressOnTileOne">
+                              <TileContent footer="August 21, 2024">
+                                   <NewsContent
+                                        contentText="Wind Map: Monitoring Real-Time and Forecasted Wind Conditions across the Globe"
+                                        subheader="Today, SAP News" />
+                              </TileContent>
+                         </GenericTile>
+                         <GenericTile
+                              backgroundImage="https://discovery-center.cloud.sap/images/homePageHeaderBannerUnAuth.jpg"
+                              frameType="TwoByOne" state="Failed">
+                              <TileContent footer="August 21, 2024">
+                                   <NewsContent
+                                        contentText="SAP Unveils Powerful New Player Comparision Tool Exclusively on NFL.com"
+                                        subheader="Today, SAP News" />
+                              </TileContent>
+                         </GenericTile>
+                    </SlideTile>
+               </l:VerticalLayout>
+          </mvc:View>
+          
+     </script>
+
+       
+     </head>
+     <body id='content' class='sapUiBody'>
+     </body>
+</html>
