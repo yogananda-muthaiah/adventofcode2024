@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+		<meta charset="utf-8">
+
+		<title>MVC with XmlView</title>
+
+		<!-- Load UI5, select "sap_belize" theme and the "sap.m" control library -->
+		<script id='sap-ui-bootstrap'
+			src='https://ui5.sap.com/resources/sap-ui-core.js'
+			data-sap-ui-theme='sap_horizon'
+			data-sap-ui-libs='sap.m'
+			data-sap-ui-xx-bindingSyntax='complex'></script>
+
+
+		<script id="view1" type="sapui5/xmlview">
+		<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:micro="sap.suite.ui.microchart" controllerName="my.own.controller">
+			<Panel headerText="RadialMicroChart Provide alternative text for images">
+				<micro:RadialMicroChart size="M" percentage="45" press="press">
+				</micro:RadialMicroChart>								
+			</Panel>
+
+			<Panel headerText="ComparisonMicroChart Provide alternative text for images">
+				<micro:ComparisonMicroChart scale="M" press="press" size="M">
+					<micro:data>
+						<micro:ComparisonMicroChartData title="Americas" value="10" color="Good" />
+						<micro:ComparisonMicroChartData title="EMEA" value="50" color="Good" />
+						<micro:ComparisonMicroChartData title="APAC" value="-20" color="Error" />
+					</micro:data>
+				</micro:ComparisonMicroChart>		
+			</Panel>
+
+			<Panel headerText="BulletMicroChart Provide alternative text for images">
+				<micro:BulletMicroChart scale="M" targetValue="100" forecastValue="110" press="press" size="M">
+					<micro:actual>
+						<micro:BulletMicroChartData value="120" color="Good" />
+					</micro:actual>
+					<micro:thresholds>
+						<micro:BulletMicroChartData value="0" color="Error" />
+						<micro:BulletMicroChartData value="50" color="Critical" />
+						<micro:BulletMicroChartData value="150" color="Critical" />
+						<micro:BulletMicroChartData value="200" color="Error" />
+					</micro:thresholds>
+				</micro:BulletMicroChart>	
+			</Panel>		
+			
+			<Panel headerText="HarveyBallMicroChart Provide alternative text for images">
+				<micro:HarveyBallMicroChart size="M" total="100" totalScale="Mrd" showTotal="true" showFractions="true" press="press">
+					<micro:items>
+						<micro:HarveyBallMicroChartItem fraction="63.5" color="Good" fractionScale="Mrd" />
+					</micro:items>
+				</micro:HarveyBallMicroChart>		
+			</Panel>			
+
+			<Panel headerText="StackedBarMicroChart Provide alternative text for images">
+				<micro:StackedBarMicroChart size="M" press="press" precision="0">
+					<micro:bars>
+						<micro:StackedBarMicroChartBar valueColor="Good" value="20"/>
+						<micro:StackedBarMicroChartBar valueColor="Error" value="30"/>
+						<micro:StackedBarMicroChartBar valueColor="Neutral" value="40"/>
+						<micro:StackedBarMicroChartBar valueColor="Critical" value="50"/>
+					</micro:bars>
+				</micro:StackedBarMicroChart>
+			</Panel>	
+			
+			<Panel headerText="LineMicroChart Provide alternative text for images">
+				<micro:LineMicroChart threshold="40" size="M" press="press" leftTopLabel="0M" leftBottomLabel="June 1" rightTopLabel="80M" rightBottomLabel="June 30">
+					<micro:lines>
+						<micro:LineMicroChartLine>
+							<micro:points>
+								<micro:LineMicroChartEmphasizedPoint x="0" y="35" color="Error" show="true"/>
+								<micro:LineMicroChartEmphasizedPoint x="8" y="53"/>
+								<micro:LineMicroChartEmphasizedPoint x="20" y="10"/>
+								<micro:LineMicroChartEmphasizedPoint x="30" y="30"/>
+								<micro:LineMicroChartEmphasizedPoint x="40" y="52"/>
+								<micro:LineMicroChartEmphasizedPoint x="100" y="73" color="Good" show="true"/>
+							</micro:points>
+						</micro:LineMicroChartLine>
+					</micro:lines>
+				</micro:LineMicroChart>						
+			</Panel>				
+
+			<Panel headerText="DeltaMicroChart Provide alternative text for images">
+				<micro:DeltaMicroChart press="press" size="M" value1="105" value2="98" title1="May 2014" title2="Apr 2014" displayValue1="105 Mio" displayValue2="98 Mio"
+						deltaDisplayValue="7 Mio" color="Good" />		
+			</Panel>					
+
+			<Panel headerText="AreaMicroChart Provide alternative text for images">
+				<micro:AreaMicroChart size="M" minXValue="0"  maxXValue="100" minYValue="0" maxYValue="100" press="press">
+					<micro:firstXLabel>
+						<micro:AreaMicroChartLabel label="June 1" color="Good" />
+					</micro:firstXLabel>
+					<micro:lastXLabel>
+						<micro:AreaMicroChartLabel label="June 30" color="Critical" />
+					</micro:lastXLabel>
+					<micro:firstYLabel>
+						<micro:AreaMicroChartLabel label="0M" color="Good" />
+					</micro:firstYLabel>
+					<micro:lastYLabel>
+						<micro:AreaMicroChartLabel label="80M" color="Critical" />
+					</micro:lastYLabel>
+					<micro:chart>
+						<micro:AreaMicroChartItem>
+							<micro:points>
+								<micro:AreaMicroChartPoint x="0" y="0" />
+								<micro:AreaMicroChartPoint x="30" y="20" />
+								<micro:AreaMicroChartPoint x="60" y="20" />
+								<micro:AreaMicroChartPoint x="100" y="80" />
+							</micro:points>
+						</micro:AreaMicroChartItem>
+					</micro:chart>
+					<micro:target>
+						<micro:AreaMicroChartItem>
+							<micro:points>
+								<micro:AreaMicroChartPoint x="0" y="0" />
+								<micro:AreaMicroChartPoint x="30" y="30" />
+								<micro:AreaMicroChartPoint x="60" y="40" />
+								<micro:AreaMicroChartPoint x="100" y="90" />
+							</micro:points>
+						</micro:AreaMicroChartItem>
+					</micro:target>
+					<micro:maxThreshold>
+						<micro:AreaMicroChartItem color="Good">
+							<micro:points>
+								<micro:AreaMicroChartPoint x="0" y="0" />
+								<micro:AreaMicroChartPoint x="30" y="40" />
+								<micro:AreaMicroChartPoint x="60" y="50" />
+								<micro:AreaMicroChartPoint x="100" y="100" />
+							</micro:points>
+						</micro:AreaMicroChartItem>
+					</micro:maxThreshold>
+					<micro:minThreshold>
+						<micro:AreaMicroChartItem color="Error">
+							<micro:points>
+								<micro:AreaMicroChartPoint x="0" y="0" />
+								<micro:AreaMicroChartPoint x="30" y="20" />
+								<micro:AreaMicroChartPoint x="60" y="30" />
+								<micro:AreaMicroChartPoint x="100" y="70" />
+							</micro:points>
+						</micro:AreaMicroChartItem>
+					</micro:minThreshold>
+				</micro:AreaMicroChart>
+			</Panel>	
+
+
+			<Panel headerText="ColumnMicroChart Provide alternative text for images">
+				<micro:ColumnMicroChart size="M">
+					<micro:columns>
+						<micro:ColumnMicroChartData value="5" color="Error"/>
+						<micro:ColumnMicroChartData value="13" color="Error"/>
+						<micro:ColumnMicroChartData value="9" />
+					</micro:columns>
+				</micro:ColumnMicroChart>	
+			</Panel>	
+
+
+		</mvc:View> 
+	</script>
+
+
+		<script>
+			// define a new (simple) Controller type
+			sap.ui.controller("my.own.controller", {
+
+				// implement an event handler in the Controller
+
+			});
+	
+
+
+			// instantiate the View
+			var myView = sap.ui.xmlview({viewContent:jQuery('#view1').html()}); // accessing the HTML inside the script tag above
+			// create a Model and assign it to the View
+			var oModel = new sap.ui.model.json.JSONModel();
+			oModel.setData();
+
+			myView.setModel(oModel);
+	
+
+
+			// put the View onto the screen
+			myView.placeAt('content');
+
+		</script>
+	
+	</head>
+	<body id='content' class='sapUiBody'>
+	</body>
+</html>
