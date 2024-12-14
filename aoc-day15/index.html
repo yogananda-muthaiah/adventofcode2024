@@ -1,0 +1,66 @@
+<html>
+<head>
+     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+     <meta charset="utf-8">
+     <title>MVC with XmlView</title>
+     
+     <script id='sap-ui-bootstrap'
+          src='https://ui5.sap.com/resources/sap-ui-core.js'
+          data-sap-ui-theme='sap_horizon'
+          data-sap-ui-libs='sap.m, sap.ui.core, sap.ui.layout, sap.suite.ui.commons'
+          data-sap-ui-compatVersion='edge'
+          data-sap-ui-xx-bindingSyntax='complex'
+          data-sap-ui-async="true"
+          data-sap-ui-on-init="module:ui5/walkthrough/index"
+          data-sap-ui-resource-roots='{ "ui5.walkthrough": "./" }'>          
+     </script>
+
+     <script id="myXml" type="text/xmldata">
+          <mvc:View
+          xmlns:mvc="sap.ui.core.mvc"
+          xmlns:m="sap.m"
+          xmlns="sap.suite.ui.commons"
+          xmlns:layout="sap.suite.ui.commons.networkgraph.layout"
+          controllerName="myController">
+          <m:Panel>
+               <m:Label text="Advent of Code UI5 Process Flow sample - Update Lanes, Zooming and Update of Lanes (Zoom in and out from your mouse to experience)" />
+               <m:HBox renderType="Bare">
+                    <m:Button text="Zoom In" press="onZoomIn" />
+                    <m:Button text="Zoom Out" press="onZoomOut" />
+                    <m:Button text="Update Lanes - add Lane" press="onUpdateModelAdd" />
+               </m:HBox>
+               <ProcessFlow
+                    id="processflow"
+                    scrollable="false"
+                    nodePress="onNodePress"
+                    nodes="{/nodes}"
+                    lanes="{/lanes}">
+                    <nodes>
+                         <ProcessFlowNode
+                              laneId="{lane}"
+                              nodeId="{id}"
+                              title="{title}"
+                              titleAbbreviation="{titleAbbreviation}"
+                              children="{children}"
+                              state="{state}"
+                              stateText="{stateText}"
+                              texts="{texts}"
+                              focused="{focused}" />
+                    </nodes>
+                    <lanes>
+                         <ProcessFlowLaneHeader
+                              laneId="{id}"
+                              iconSrc="{icon}"
+                              text="{label}"
+                              position="{position}" />
+                    </lanes>
+               </ProcessFlow>
+          </m:Panel>
+     </mvc:View>
+     </script>
+
+       
+     </head>
+     <body id='content' class='sapUiBody'>
+     </body>
+</html>

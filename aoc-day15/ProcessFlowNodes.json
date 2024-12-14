@@ -1,0 +1,43 @@
+{
+	"nodes": [
+		{
+			"id": "1",
+			"lane": "0",
+			"title": "Sales Order 1",
+			"titleAbbreviation": "SO 1",
+			"children": [ 2 ],
+			"state": "Positive",
+			"stateText": "OK status",
+			"focused": true,
+			"texts": [
+				"Sales Order Document Overdue long text for wrapping up all aspects",
+				"Not cleared"
+			]
+		},
+		{
+			"id": "2",
+			"lane": "1",
+			"title": "Invoice 2",
+			"titleAbbreviation": "IV 2",
+			"children": [ ],
+			"state": "Negative",
+			"stateText": "NOT OK",
+			"focused": false,
+			"texts": null
+		}
+	],
+	"lanes": [
+		{
+			"id": "0",
+			"icon": "sap-icon://order-status",
+			"label": "In Order",
+			"position": 0
+		},
+		{
+			"id": "1",
+			"icon": "sap-icon://payment-approval",
+			"label": "In Invoice",
+			"position": 1
+		}
+	]
+}
