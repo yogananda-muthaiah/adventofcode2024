@@ -22,8 +22,8 @@
 * [Day 14 - Page,Toolbar and Bar](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day14)
 ### Week 3
 * [Day 15 - Process Flow](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day015)
-* [Day 16 - Panel](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day016)
-* [Day 17 - Slide Tile](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day17)
+* [Day 16 - CodeEditor](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day016)
+* [Day 17 - ](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day17)
 
 References : https://ui5.sap.com/#/controls
 
