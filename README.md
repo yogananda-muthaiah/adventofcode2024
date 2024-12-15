@@ -21,8 +21,8 @@
 * [Day 13 - Message Toast](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day13)
 * [Day 14 - Page,Toolbar and Bar](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day14)
 ### Week 3
-* [Day 15 - Process Flow](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day015)
-* [Day 16 - CodeEditor](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day016)
+* [Day 15 - Process Flow](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day15)
+* [Day 16 - CodeEditor](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day16)
 * [Day 17 - ](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day17)
 
 References : https://ui5.sap.com/#/controls
