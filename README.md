@@ -23,7 +23,7 @@
 ### Week 3
 * [Day 15 - Process Flow](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day15)
 * [Day 16 - CodeEditor](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day16)
-* [Day 17 - ](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day17)
+* [Day 17 - UI5 WebComponents 2.0](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day17)
 
 References : https://ui5.sap.com/#/controls
 
