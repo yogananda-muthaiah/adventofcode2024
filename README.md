@@ -26,9 +26,10 @@
 * [Day 17 - UI5 WebComponents 2.0](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day17)
 * [Day 18 - RangeSlider](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day18)
 * [Day 19 - Timelines](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day19)
-* [Day 20 - ](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day20)
-* [Day 21 - ](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day21)
+* [Day 20 - Page Header Title with Table](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day20)
+* [Day 21 - Progress Indicator with Animation](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day21)
 ### Week 4
+* [Day 22 - ](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day22)
 
 References : https://ui5.sap.com/#/controls
 
