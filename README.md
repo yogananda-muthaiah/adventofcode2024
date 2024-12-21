@@ -25,7 +25,7 @@
 * [Day 16 - CodeEditor](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day16)
 * [Day 17 - UI5 WebComponents 2.0](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day17)
 * [Day 18 - RangeSlider](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day18)
-* [Day 19 - ](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day19)
+* [Day 19 - Timelines](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day19)
 * [Day 20 - ](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day20)
 * [Day 21 - ](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day21)
 ### Week 4

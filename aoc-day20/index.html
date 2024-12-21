@@ -1,0 +1,46 @@
+<html>
+<head>
+     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+     <meta charset="utf-8">
+     <title>Page Header Title with Header</title>
+     
+     <script id='sap-ui-bootstrap'
+          src='https://ui5.sap.com/resources/sap-ui-core.js'
+          data-sap-ui-theme='sap_horizon_dark'
+          data-sap-ui-libs='sap.m, sap.ui.core, sap.ui.layout'
+          data-sap-ui-compatVersion='edge'
+          data-sap-ui-async="true"
+          data-sap-ui-on-init="module:ui5/walkthrough/index"
+          data-sap-ui-resource-roots='{ "ui5.walkthrough": "./" }'>          
+     </script>
+
+     <script id="myXml" type="text/xmldata">
+          <mvc:View
+          controllerName="myController"
+          xmlns="sap.m"
+          xmlns:mvc="sap.ui.core.mvc"
+          height="100%">
+          <Page
+               enableScrolling="true"
+               title="Page Header Title"
+               titleLevel="H2"
+               showFooter="false">
+               <List items="{/ProductCollection}">
+                    <headerToolbar>
+                         <Toolbar>
+                              <Title level="H3" text="Products" />
+                              <ToolbarSpacer />
+                              <Button icon="sap-icon://settings" press=".handleButtonPress" />
+                         </Toolbar>
+                    </headerToolbar>
+                    <StandardListItem title="{Name}" description="{ProductId}" />
+               </List>
+          </Page>
+     </mvc:View>   
+     </script>
+
+       
+     </head>
+     <body id='content' class='sapUiBody'>
+     </body>
+</html>
