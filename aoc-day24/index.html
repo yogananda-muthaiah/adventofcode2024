@@ -1,0 +1,44 @@
+<html>
+<head>
+     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+     <meta charset="utf-8">
+     <title>InteractiveBarChart</title>
+     
+     <script id='sap-ui-bootstrap'
+          src='https://ui5.sap.com/resources/sap-ui-core.js'
+          data-sap-ui-theme='sap_horizon_dark'
+          data-sap-ui-libs='sap.m, sap.ui.core'
+          data-sap-ui-compatVersion='edge'
+          data-sap-ui-xx-bindingSyntax='complex'
+          data-sap-ui-async="true"
+          data-sap-ui-on-init="module:ui5/walkthrough/index"
+          data-sap-ui-resource-roots='{ "ui5.walkthrough": "./" }'>          
+     </script>
+
+     <script id="myXml" type="text/xmldata">
+          <mvc:View controllerName="myController" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+               <NumericContent value="888.8" scale="MM" class="sapUiSmallMargin"
+                    press="press" truncateValueTo="4" />
+               <NumericContent value="65.5" scale="MM"
+                    valueColor="Good" indicator="Up" class="sapUiSmallMargin"
+                    press="press" />
+               <NumericContent value="6666" scale="MM"
+                    valueColor="Critical" indicator="Up" class="sapUiSmallMargin"
+                    press="press" />
+               <NumericContent value="65.5" scale="MMill"
+                    valueColor="Error" indicator="Down" class="sapUiSmallMargin"
+                    press="press" />
+          
+               <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Country-Specific Profit Margin" subheader="Expenses" press="press">
+                    <TileContent unit="EUR" footer="Current Quarter">
+                         <NumericContent scale="M" value="1.96" valueColor="Error" indicator="Up" withMargin="false" />
+                    </TileContent>
+               </GenericTile>
+          </mvc:View>
+     </script>
+
+       
+     </head>
+     <body id='content' class='sapUiBody'>
+     </body>
+</html>

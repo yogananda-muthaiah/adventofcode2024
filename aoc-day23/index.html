@@ -1,0 +1,87 @@
+<html>
+<head>
+     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+     <meta charset="utf-8">
+     <title>InteractiveBarChart</title>
+     
+     <script id='sap-ui-bootstrap'
+          src='https://ui5.sap.com/resources/sap-ui-core.js'
+          data-sap-ui-theme='sap_horizon'
+          data-sap-ui-libs='sap.m, sap.ui.core, sap.ui.layout, sap.suite.ui.microchart'
+          data-sap-ui-compatVersion='edge'
+          data-sap-ui-xx-bindingSyntax='complex'
+          data-sap-ui-async="true"
+          data-sap-ui-on-init="module:ui5/walkthrough/index"
+          data-sap-ui-resource-roots='{ "ui5.walkthrough": "./" }'>          
+     </script>
+
+     <script id="myXml" type="text/xmldata">
+          <mvc:View
+          xmlns:mvc="sap.ui.core.mvc"
+          xmlns:core="sap.ui.core"
+          xmlns="sap.suite.ui.microchart"
+          xmlns:m="sap.m"
+          xmlns:layout="sap.ui.layout"
+          controllerName="myController">
+     
+          <layout:Grid defaultSpan="XL6 L6 M6 S12">
+               <layout:VerticalLayout>
+                    <layout:layoutData>
+                         <layout:GridData span="XL12 L12 M12 S12"/>
+                    </layout:layoutData>
+                    <m:Text text="Semantic colors in interactive mode" class="sapUiSmallMargin"/>
+                    <m:FlexBox width="20rem" height="13rem" alignItems="Center" class="sapUiSmallMargin">
+                         <m:items>
+                              <InteractiveBarChart labelWidth="25%" displayedBars="3" selectionChanged="selectionChanged" press="press">
+                                   <bars>
+                                        <InteractiveBarChartBar label="Product 1" value="10" color="Critical"/>
+                                        <InteractiveBarChartBar label="Product 2" value="50" color="Good" selected="true"/>
+                                        <InteractiveBarChartBar label="Product 3" value="-10" color="Error"/>
+                                   </bars>
+                              </InteractiveBarChart>
+                         </m:items>
+                    </m:FlexBox>
+               </layout:VerticalLayout>
+               <layout:VerticalLayout>
+                    <layout:layoutData>
+                         <layout:GridData span="XL12 L12 M12 S12"/>
+                    </layout:layoutData>
+                    <m:Text text="Semantic colors - Criticality" class="sapUiSmallMargin"/>
+                    <m:FlexBox width="20rem" height="10rem" alignItems="Center" class="sapUiSmallMargin">
+                         <m:items>
+                              <InteractiveBarChart labelWidth="25%" displayedBars="3" selectionChanged="selectionChanged" press="press">
+                                   <bars>
+                                        <InteractiveBarChartBar label="Product 1" value="10" color="Critical"/>
+                                        <InteractiveBarChartBar label="Product 2" value="50" color="Neutral"/>
+                                        <InteractiveBarChartBar label="Product 3" value="-10" color="Neutral"/>
+                                   </bars>
+                              </InteractiveBarChart>
+                         </m:items>
+                    </m:FlexBox>
+               </layout:VerticalLayout>
+               <layout:VerticalLayout>
+                    <layout:layoutData>
+                         <layout:GridData span="XL12 L12 M12 S12"/>
+                    </layout:layoutData>
+                    <m:Text text="Semantic colors in non-interactive mode" class="sapUiSmallMargin"/>
+                    <m:FlexBox width="20rem" height="9rem" alignItems="Center" class="sapUiSmallMargin">
+                         <m:items>
+                              <InteractiveBarChart labelWidth="25%" displayedBars="3" selectionChanged="selectionChanged" press="press" selectionEnabled="false">
+                                   <bars>
+                                        <InteractiveBarChartBar label="Product 1" value="10" color="Critical"/>
+                                        <InteractiveBarChartBar label="Product 2" value="50" color="Good" selected="true"/>
+                                        <InteractiveBarChartBar label="Product 3" value="-10" color="Error"/>
+                                   </bars>
+                              </InteractiveBarChart>
+                         </m:items>
+                    </m:FlexBox>
+               </layout:VerticalLayout>
+          </layout:Grid>
+     </mvc:View>     
+     </script>
+
+       
+     </head>
+     <body id='content' class='sapUiBody'>
+     </body>
+</html>
