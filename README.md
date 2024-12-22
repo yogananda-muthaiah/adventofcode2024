@@ -29,7 +29,9 @@
 * [Day 20 - Page Header Title with Table](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day20)
 * [Day 21 - Progress Indicator with Animation](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day21)
 ### Week 4
-* [Day 22 - ](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day22)
+* [Day 22 - Micro Process Flow](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day22)
+* [Day 23 - ](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day23)
+* [Day 24 - ](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day24)
 
 References : https://ui5.sap.com/#/controls
 
