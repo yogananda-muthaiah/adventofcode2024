@@ -31,7 +31,7 @@
 ### Week 4
 * [Day 22 - Micro Process Flow](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day22)
 * [Day 23 - Interactive Bar Chart](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day23)
-* [Day 24 - InteractiveBarChart](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day24)
+* [Day 24 - Numeric Display](https://github.com/yogananda-muthaiah/adventofcode2024/tree/main/aoc-day24)
 
 References : https://ui5.sap.com/#/controls
 
